@@ -24,6 +24,17 @@ def money_into_till(drink)
   return @till += drink.price
 end
 
+def check_customer_age(customer)
+  return @customer.age
+end
+
+def old_enough(customer)
+   return customer.age >= 18
+end
+
+def sell_drink_when_old_enough(customer, drink)
+    
+end
 
 
 
